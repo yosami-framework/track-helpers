@@ -3,7 +3,7 @@ const t          = require('track-spec');
 const HashHelper = require('../lib/hash_helper');
 
 t.describe('HashHelper', () => {
-  t.describe('#fast', () => {
+  t.describe('.fast', () => {
     const subject = (() => HashHelper.fast('ABCDEFGエヴァけもフレ'));
 
     t.it('Return hash', () => {
