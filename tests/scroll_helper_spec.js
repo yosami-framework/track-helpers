@@ -13,7 +13,7 @@ t.describe('ScrollHelper', () => {
     process.browser = false;
   });
 
-  t.describe('#getPos()', () => {
+  t.describe('.getPos', () => {
     const subject = (() => ScrollHelper.getPos(element));
     let element = null;
 
@@ -51,7 +51,7 @@ t.describe('ScrollHelper', () => {
     });
   });
 
-  t.describe('#scroll()', () => {
+  t.describe('.scroll', () => {
     const subject = (() => ScrollHelper.scroll(position, ms, element));
     let position = null;
     let element  = null;
@@ -119,7 +119,7 @@ t.describe('ScrollHelper', () => {
     });
   });
 
-  t.describe('#scrollTo()', () => {
+  t.describe('.scrollTo', () => {
     const subject = (() => ScrollHelper.scrollTo(element));
     let element  = null;
 
