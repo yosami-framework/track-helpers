@@ -27,3 +27,12 @@ ScrollHelper.scrollTo(element);              // => Window scroll to Element
 ScrollHelper.scrollTo(element, 250);         // => Window scroll to Element with 250ms animation.
 ScrollHelper.scrollTo(element, 0, {x: -60}); // => Window scroll to Element with offset (x - 60)
 ```
+
+### HashHelper
+
+```javascript
+const HashHelper = require('track-helpers/lib/hash_helper');
+
+// Fash hash function. (non-cryptographic)
+HashHelper.fast('ABCDEFGエヴァけもフレ'); // Return hex hash.
+```
