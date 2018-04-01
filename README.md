@@ -1,6 +1,8 @@
 # TrackHelpers
 Helpers for track.
 
+[![Build Status](https://travis-ci.org/yosami-framework/track-helpers.svg?branch=master)](https://travis-ci.org/yosami-framework/track-helpers)
+
 ## Installation
 
 ### npm

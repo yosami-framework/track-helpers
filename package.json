@@ -1,8 +1,8 @@
 {
   "name": "track-helpers",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Helpers for track.",
-  "repository": "alfa-jpn/track-helpers.git",
+  "repository": "yosami-framework/track-helpers.git",
   "scripts": {
     "linter": "eslint ./",
     "test": "ospec"
