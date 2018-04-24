@@ -1,6 +1,6 @@
 {
   "name": "track-helpers",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Helpers for track.",
   "repository": "yosami-framework/track-helpers.git",
   "scripts": {
